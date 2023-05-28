@@ -7,7 +7,7 @@ Peak wind gust ($W_p$) is a crucial meteorological variable for wind farm planni
 ## Study Area
 This study focuses on the West Texas Panhandle region, one of the largest semi-arid regions in the world.
 
-![Flowchart of the plant counting pipeline](/docs/flowchart.JPG)
+![Study Area](/docs/StudyArea.PNG)
 
 
 ## Requirements
