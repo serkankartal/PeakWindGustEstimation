@@ -21,8 +21,12 @@ In this study, we proposed a decision tree-based MCP approach (called INTRIGUE) 
  
 
 ## Example Results
-Confusion matrices for extreme wind gust ($W_p > 20$ m~s$^{-1}$) prediction. The top and bottom panels represent XGBoost and RF models, respectively. The left, middle, and right panels correspond to REESE, MACY, and FLUVANNA stations, respectively.
+Confusion matrices for extreme wind gust ($W_p > 20$) prediction. The top and bottom panels represent XGBoost and RF models, respectively. The left, middle, and right panels correspond to REESE, MACY, and FLUVANNA stations, respectively.
+<div style="width: 60%; height: 60%">
+  
 ![Results](/docs/results.PNG)
+  
+</div>
 
 ## Run
 1. If you want to retrain models, first go "plant_detection_models",  (**Skip this step if you want to work with the pre-trained model**)
