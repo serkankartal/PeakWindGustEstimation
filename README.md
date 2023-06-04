@@ -11,18 +11,14 @@ This study focuses on the West Texas Panhandle region, one of the largest semi-a
 
 
 ## Requirements
-- Python 3.6
-- Tensorflow 1.14
-- Pyqt5 5.15.4
-- Others
+- Flaml 1.0.1
+- Python 3.7
+- eli =0.13.0 
+- Others...  Please check the requirements.txt file
 
 ## Introduction 
-The study intended to take advantage of the recent development in ML approaches and attempt to build alternative and more flexible PlantEye data processing architecture. The main objective was to automatically count plants from complex canopy scans.
-
-Our proposals included: 
-1. Development of a 3D point cloud segmentation algorithm to separate plants from their surroundings
-2. Development of ML-based mung bean and chickpea plant detection models  
-3. Evaluation of the proposed pipeline performance
+In this study, we proposed a decision tree-based MCP approach (called INTRIGUE) for peak wind gust estimation. This approach utilizes several meteorological variables (including the instantaneous wind gust variable) from the ERA5 reanalysis dataset as input features. For non-extreme (i.e., nominal) cases, the INTRIGUE approach-predicted peak wind gust values are closer to the observed ones than the baseline approaches. This approach can also make predictions for neighboring stations where training data is not available. 
+ 
 
 ## Example Results
 Faster RCNN Inception-v2 and Faster RCNN ResNet50 models produced mung bean and chickpea detection results for randomly selected five test images and their original views
@@ -46,7 +42,7 @@ Faster RCNN Inception-v2 and Faster RCNN ResNet50 models produced mung bean and 
    ![User Interface](/docs/user_interface.JPG)
 
 
-## Citing
-Kartal, S., Choudhary, S., Stočes, M., Šimek, P., Vokoun, T., & Novák, V. (2020). Segmentation of bean-plants using clustering algorithms. AGRIS on-line Papers in Economics and Informatics, 10(665-2021-561), 36-43.
+## How to cite
+Kartal, S., Basu, S., and Watson, S. J.: A decision tree-based measure-correlate-predict approach for peak wind gust estimation from a global reanalysis dataset, Wind Energ. Sci. Discuss. [preprint], https://doi.org/10.5194/wes-2023-30, in review, 2023.
 
 
