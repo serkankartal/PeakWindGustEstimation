@@ -21,7 +21,7 @@ In this study, we proposed a decision tree-based MCP approach (called INTRIGUE) 
  
 
 ## Example Results
-Faster RCNN Inception-v2 and Faster RCNN ResNet50 models produced mung bean and chickpea detection results for randomly selected five test images and their original views
+Confusion matrices for extreme wind gust ($W_p > 20$ m~s$^{-1}$) prediction. The top and bottom panels represent XGBoost and RF models, respectively. The left, middle, and right panels correspond to REESE, MACY, and FLUVANNA stations, respectively.
 ![Results](/docs/results.JPG)
 
 ## Run
