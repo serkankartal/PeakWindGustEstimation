@@ -29,7 +29,7 @@ Confusion matrices for extreme wind gust ($W_p > 20$) prediction. The top and bo
 </div>
 
 ## Run
-1. Download the datasets from https://drive.google.com/drive/folders/1awmXFH5_gqKC4-v3EmJAkKctDxSlZwmk?usp=drive_link  and paste into the Data folder
+1. Download the datasets from [here](https://drive.google.com/drive/folders/1awmXFH5_gqKC4-v3EmJAkKctDxSlZwmk?usp=drive_link)  and paste into the Data folder
 2. Install the packages in the Requirements.txt file,
 3. Set parameters in parameters.py
 4. Run the main.py
