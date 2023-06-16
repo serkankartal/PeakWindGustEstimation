@@ -29,21 +29,9 @@ Confusion matrices for extreme wind gust ($W_p > 20$) prediction. The top and bo
 </div>
 
 ## Run
-1. If you want to retrain models, first go "plant_detection_models",  (**Skip this step if you want to work with the pre-trained model**)
-   - Training 
-     - Run python model_main.py --alsologtostderr --model_dir=training/ --pipeline_config_path=training/[model name]
-     - For Example: python model_main.py --alsologtostderr --model_dir=training/ --pipeline_config_path=training/faster_rcnn_inception_v2_coco.config
-
-
-   - Create inference grap
-     - For example: python export_inference_graph.py --input_type image_tensor --pipeline_config_path training/faster_rcnn_inception_v2_coco.config --trained_checkpoint_prefix training/model.ckpt-20000 --output_directory inference_graph
-   - move the created "inference graph"  file under the "Plant_Detection" directory 
-
-2. Testing
-   - Execute "Plant_Detection" folder 
-   - Select  "sample_mungbean_ply" file (file with raw point cloud mung bean files) via user interface
-   - Press "Start Plant Detection" button
-   ![User Interface](/docs/user_interface.JPG)
+1. Install the packages in the Requirements.txt file,
+2. Set parameters in parameters.py
+3. Run the main.py
 
 
 ## How to cite
